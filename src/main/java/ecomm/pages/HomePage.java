@@ -36,7 +36,7 @@ public class HomePage extends BaseClass {
 	}
 	public CreateAccountPage verifyCreateAccountLink() {
 		createAccount.click();
-		return new CreateAccountPage();
+		return new CreateAccountPage(driver);
 		
 		
 	}
