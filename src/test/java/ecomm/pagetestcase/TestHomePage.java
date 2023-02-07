@@ -23,7 +23,7 @@ public class TestHomePage extends BaseClass {
 	@BeforeMethod //@BeforeClass 
 	public void launchBrowser() {
 		initialzeBrowser();
-		homepage =new HomePage();
+		homepage =new HomePage(driver);
 	}
 	@Test
 	public void testPagetitle() {
