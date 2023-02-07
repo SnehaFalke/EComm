@@ -10,8 +10,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BaseClass {
-	public WebDriver driver;
-	public static Properties properties;
+	public static  WebDriver driver;
+	public Properties properties;
 	public BaseClass() {
 		try {
 			properties= new Properties();

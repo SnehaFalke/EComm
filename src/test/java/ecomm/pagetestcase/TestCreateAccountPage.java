@@ -19,8 +19,8 @@ public TestCreateAccountPage() {
 @BeforeMethod //@BeforeClass 
 public void launchBrowser() {
 	initialzeBrowser();
-	homepage =new HomePage();
-	createAcct=new CreateAccountPage();
+	homepage =new HomePage(driver);
+	createAcct=new CreateAccountPage(driver);
 	homepage.verifyCreateAccountLink();
 	
 }
